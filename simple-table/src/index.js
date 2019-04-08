@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import FilterableProductTable from './FilterableProductTable';
+import FilterableProductTable from './components/FilterableProductTable';
 import * as serviceWorker from './serviceWorker';
 
 // If you want your app to work offline and load faster, you can change
