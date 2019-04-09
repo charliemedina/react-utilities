@@ -1,1 +1,1 @@
-# react-product-table
+# react-projects
