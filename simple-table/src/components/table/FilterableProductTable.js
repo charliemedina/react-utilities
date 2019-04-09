@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import SearchBar from './SearchBar';
 import ProductTable from './ProductTable';
 import Clock from '../clock/Clock';
-import Toggle from '../events/Toggle';
+import Toggle from '../utils/Toggle';
+import '../utils/Greeting';
 
 class FilterableProductTable extends Component {
   constructor(props) {
