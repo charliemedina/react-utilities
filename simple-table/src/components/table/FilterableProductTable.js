@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import SearchBar from './SearchBar';
 import ProductTable from './ProductTable';
+import Clock from '../clock/Clock';
 
 class FilterableProductTable extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -17,7 +17,6 @@ class FilterableProductTable extends Component {
     this.handleInStockChange = 
       this.handleInStockChange.bind(this);
   }
-
 
   handleFilterTextChange(filterText) {
     this.setState({
@@ -34,6 +33,7 @@ class FilterableProductTable extends Component {
   render() {
     return (
       <div>
+        <Clock />
         <SearchBar
           filterText={this.state.filterText}
           inStockOnly={this.state.inStockOnly}

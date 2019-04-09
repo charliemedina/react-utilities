@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import FilterableProductTable from './components/FilterableProductTable';
 import * as serviceWorker from './serviceWorker';
+import FilterableProductTable from './components/table/FilterableProductTable';
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
