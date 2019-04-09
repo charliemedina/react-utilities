@@ -3,7 +3,7 @@ import SearchBar from './SearchBar';
 import ProductTable from './ProductTable';
 import Clock from '../clock/Clock';
 import Toggle from '../utils/Toggle';
-import '../utils/Greeting';
+import LoginControl from '../utils/LoginControl';
 
 class FilterableProductTable extends Component {
   constructor(props) {
@@ -48,6 +48,7 @@ class FilterableProductTable extends Component {
           inStockOnly={this.state.filterText} 
         />
         <Toggle />
+        <LoginControl />
       </div>
     );
   }
