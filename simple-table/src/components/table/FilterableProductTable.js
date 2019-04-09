@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import SearchBar from './SearchBar';
 import ProductTable from './ProductTable';
-import Clock from '../clock/Clock';
-import Toggle from '../utils/Toggle';
-import LoginControl from '../utils/LoginControl';
 
 class FilterableProductTable extends Component {
   constructor(props) {
@@ -35,7 +32,6 @@ class FilterableProductTable extends Component {
   render() {
     return (
       <div>
-        <Clock />
         <SearchBar
           filterText={this.state.filterText}
           inStockOnly={this.state.inStockOnly}
@@ -47,8 +43,6 @@ class FilterableProductTable extends Component {
           filterText={this.state.filterText}
           inStockOnly={this.state.filterText} 
         />
-        <Toggle />
-        <LoginControl />
       </div>
     );
   }
