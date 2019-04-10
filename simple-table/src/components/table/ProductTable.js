@@ -36,12 +36,12 @@ class ProductTable extends Component {
   
     return(
       <table>
-        <thread>
+        <thead>
           <tr>
             <th>Name</th>
             <th>Price</th>
           </tr>
-        </thread>
+        </thead>
         <tbody>
           {rows}
         </tbody>

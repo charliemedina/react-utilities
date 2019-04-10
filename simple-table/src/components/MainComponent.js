@@ -3,6 +3,7 @@ import Clock from './clock/Clock';
 import Toggle from './utils/Toggle';
 import LoginControl from './utils/LoginControl';
 import FilterableProductTable from './table/FilterableProductTable';
+import List from './utils/List';
 
 const PRODUCTS = [
     {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
@@ -21,6 +22,7 @@ class MainComponent extends Component {
        <FilterableProductTable products={PRODUCTS} />
        <Toggle />
        <LoginControl />
+       <List />
       </div>
     );
   }
