@@ -4,6 +4,10 @@ import Toggle from './utils/Toggle';
 import LoginControl from './utils/LoginControl';
 import FilterableProductTable from './table/FilterableProductTable';
 import List from './utils/List';
+import Input from './utils/forms/Input';
+import TextArea from './utils/forms/TextArea';
+import Select from './utils/forms/Select';
+import Reservation from './utils/forms/MultipleInput';
 
 const PRODUCTS = [
     {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
@@ -23,6 +27,11 @@ class MainComponent extends Component {
        <Toggle />
        <LoginControl />
        <List />
+       <Input />
+       <TextArea className="text-area"/>
+       <Select />
+       <Reservation />
+       <a href="https://jaredpalmer.com/formik/">More information about Forms...</a>
       </div>
     );
   }
