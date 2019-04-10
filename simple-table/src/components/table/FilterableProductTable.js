@@ -3,7 +3,6 @@ import SearchBar from './SearchBar';
 import ProductTable from './ProductTable';
 
 class FilterableProductTable extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -17,7 +16,6 @@ class FilterableProductTable extends Component {
     this.handleInStockChange = 
       this.handleInStockChange.bind(this);
   }
-
 
   handleFilterTextChange(filterText) {
     this.setState({
