@@ -8,6 +8,8 @@ import Input from './utils/forms/Input';
 import TextArea from './utils/forms/TextArea';
 import Select from './utils/forms/Select';
 import Reservation from './utils/forms/MultipleInput';
+import Calculator from './calculator/Calculator';
+
 
 const PRODUCTS = [
     {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
@@ -32,7 +34,8 @@ class MainComponent extends Component {
        <Select />
        <Reservation />
        <a href="https://jaredpalmer.com/formik/">More information about Forms...</a>
-      </div>
+       <Calculator />
+`      </div>
     );
   }
 }
