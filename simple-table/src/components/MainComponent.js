@@ -9,6 +9,7 @@ import TextArea from './utils/forms/TextArea';
 import Select from './utils/forms/Select';
 import Reservation from './utils/forms/MultipleInput';
 import Calculator from './calculator/Calculator';
+import Dialog from './dialog/Dialog';
 
 
 const PRODUCTS = [
@@ -35,6 +36,7 @@ class MainComponent extends Component {
        <Reservation />
        <a href="https://jaredpalmer.com/formik/">More information about Forms...</a>
        <Calculator />
+       <Dialog />
 `      </div>
     );
   }
